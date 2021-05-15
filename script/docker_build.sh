@@ -8,3 +8,6 @@ REGION=eu-central-1
 ACCOUNT_ID=050266116122
 
 docker build . -t ${REPOSITORY}:${IMAGE_NAME} -t ${ACCOUNT_ID}.dkr.ecr.${REGION}.amazonaws.com/${REPOSITORY}:${IMAGE_NAME}
+
+## check if python3 kernel is available
+docker run -it --rm ${REPOSITORY}:${IMAGE_NAME} bash -c "jupyter-kernelspec list"
