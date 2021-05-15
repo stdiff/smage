@@ -6,7 +6,7 @@ authors = ["Hironori <stdiff@outlook.de>"]
 license = "MIT"
 
 [tool.poetry.dependencies]
-python = "3.7"
+python = "~3.7.0"
 tensorflow = "2.5.0"
 transformers = "3.5.1"
 altair = "^4.1.0"
