@@ -3,7 +3,7 @@
 ## TODO: parametrization of the image name by BUILD_NUMBER
 
 REPOSITORY=smage
-IMAGE_NAME=py37ml1
+IMAGE_NAME=py37ml2
 REGION=eu-central-1
 ACCOUNT_ID=050266116122
 
