@@ -26,6 +26,8 @@ transformers = "4.15.0"
 datasets = "1.18.1"
 ray = {version = "~1.6.0", extras = ["default"]}
 torchviz = "^0.0.2"
+ipywidgets = "7.4.0"
+tqdm = "4.62.3"
 
 
 [tool.poetry.dev-dependencies]
