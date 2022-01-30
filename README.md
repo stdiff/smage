@@ -7,6 +7,7 @@
 1. Create an ECR repository at first
 2. Create a build project on CodeBuild console. 
     - Do not forget to check "Privileged" under "Environment" section.
+3. Attach the built image to SageMaker Domain
 
 ### Environment variable
 
