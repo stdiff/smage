@@ -7,6 +7,9 @@ RUN apt-get install -y curl
 ENV SHELL=/bin/bash
 ENV TZ="Europe/Berlin"
 
+## development environment for sagemaker-training
+RUN apt-get install -y build-essential
+
 ##
 ## Python Environment
 ##
