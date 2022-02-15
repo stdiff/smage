@@ -2,12 +2,14 @@
 
 ![build badge](https://codebuild.eu-central-1.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiTmpsUDYzdVBQSElBSTl4bTI4TWxZSk8wNXI0QmNUTjRITTVDb0JoZC9vUit1eGI5MGRFL3ZTNEVkMFozRVhlMFhlTEg1OW1odFEyYWlNMzVYc0l4R09RPSIsIml2UGFyYW1ldGVyU3BlYyI6IlB6VVVOaVVCbUNNTzVnN0IiLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=main)
 
+The aim of this repository is to provide a custom Docker image for SageMaker Training Job.
+
 ## Setup
 
 1. Create an ECR repository at first
 2. Create a build project on CodeBuild console. 
     - Do not forget to check "Privileged" under "Environment" section.
-3. Attach the built image to SageMaker Domain
+3. Attach the built image to SageMaker Domain. (If you want to use this image on SageMaker Studio.)
 
 ### Environment variable
 
@@ -45,3 +47,7 @@ Add the following policy to the role after replacing `AWS_ACCOUNT_ID` with your 
             }
         ]
     }
+
+## TODO 
+
+- GPU
