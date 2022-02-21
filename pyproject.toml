@@ -30,6 +30,7 @@ ipywidgets = "7.4.0"
 tqdm = "4.62.3"
 sagemaker-training = "4.0.1"
 pydantic = "1.8.2"
+en-core-web-md = {url = "https://github.com/explosion/spacy-models/releases/download/en_core_web_md-3.2.0/en_core_web_md-3.2.0-py3-none-any.whl"}
 
 
 [tool.poetry.dev-dependencies]
