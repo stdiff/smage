@@ -13,7 +13,7 @@ RUN apt-get install -y build-essential
 ##
 ## Python Environment
 ##
-RUN curl -sSL https://install.python-poetry.org | python - --version 1.1.11
+RUN curl -sSL https://install.python-poetry.org | python - --version 1.4.2
 ENV PATH=/root/.local/bin:$PATH
 RUN poetry config virtualenvs.create false --local
 COPY pyproject.toml .
